@@ -14,7 +14,7 @@ import videojs from 'videojs';
 export default Ember.Component.extend({
   tagName: 'video',
 
-  classNames: ['video-js'],
+  classNames: ['video-js', 'vjs-default-skin'],
 
   mergedProperties: ['playerEvents'],
 
